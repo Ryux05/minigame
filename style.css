@@ -49,3 +49,7 @@ html, body, * {
     -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
     -ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
 }
+
+.ukuran{
+    font-size: large;
+}
