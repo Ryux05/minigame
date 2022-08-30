@@ -85,4 +85,4 @@ function footer() {
 }
 
 const nama = ["udin", "nada", "babo, vina"];
-const random_nama = Math.floor(Math.random() * nama.length);
+const random_nama = nama[Math.floor(Math.random() * nama.length)];
