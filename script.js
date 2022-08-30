@@ -84,5 +84,5 @@ function footer() {
   z.innnerHTML = ya;
 }
 
-const nama = ["udin", "nada", "babo, vina"];
+const nama = ["udin", "nada", "babo, vina","david","bagus","bagas","john","arce","ace","ivan","fiki"," fauzan"];
 const random_nama = nama[Math.floor(Math.random() * nama.length)];
