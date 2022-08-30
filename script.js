@@ -1,7 +1,7 @@
 class Start {
   constructor() {
     this.playerName = "Kamu";
-    this.botName = "udin";
+    this.botName = `${nama_random}`;
     this.playerOption;
     this.botOption;
     this.winner = "";
