@@ -1,7 +1,7 @@
 class Start {
   constructor() {
     this.playerName = "Kamu";
-    this.botName = "Myuko bot";
+    this.botName = `${random_n}`;
     this.playerOption;
     this.botOption;
     this.winner = "";
@@ -83,3 +83,6 @@ function footer() {
   var z = document.getElementById("title");
   z.innnerHTML = ya;
 }
+
+const nama = ["udin", "nada", "babo, vina"];
+const random_n = Math.floor(Math.random() * nama.length);
