@@ -1,7 +1,7 @@
 class Start {
   constructor() {
     this.playerName = "Kamu";
-    this.botName = `${random_nama}`;
+    this.botName = "udin";
     this.playerOption;
     this.botOption;
     this.winner = "";
@@ -75,7 +75,7 @@ function pickOption(params) {
   setTimeout(() => {
     inGame.textContent = `${start.getPlayerOption} VS ${start.getBotOption}`;
     result.textContent = start.matchResult();
-  }, 1500);
+  }, 500);
 }
 
 function footer() {

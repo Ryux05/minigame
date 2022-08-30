@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+body {
+  color: white;
+  background-image: url(./sore.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 html,
 body,
 * {
@@ -13,10 +21,14 @@ body,
   height: 100vh;
 }
 
+/* .summary {
+  text-align: center;
+} */
+
 .summary {
   margin-top: 10px;
   margin: 0 auto;
-  border: 3px solid blanchedalmond;
+  border: 3px solid url(./sore.jpg);
   width: 400px;
   height: 400px;
   text-align: center;
