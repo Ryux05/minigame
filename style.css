@@ -14,10 +14,9 @@ body,
 }
 
 .summary {
-  padding: auto;
-  margin-top: 10px auto;
+  margin-top: 10px;
   margin: 0 auto;
-  border: 3.5px solid blanchedalmond;
+  border: 3px solid blanchedalmond;
   width: 400px;
   height: 400px;
   text-align: center;
@@ -59,8 +58,4 @@ body,
 .ingame {
   margin-top: 30px;
   font-size: 36px;
-}
-
-.title {
-  margin-top: 5.3px;
 }
