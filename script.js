@@ -77,3 +77,9 @@ function pickOption(params) {
     result.textContent = start.matchResult();
   }, 1500);
 }
+
+function footer() {
+  var ya = document.getElementById("nama").value;
+  var z = document.getElementById("title");
+  z.innnerHTML = ya;
+}
