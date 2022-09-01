@@ -1,7 +1,7 @@
 class Start {
   constructor() {
     this.playerName = "Kamu";
-    this.botName = `${nama_random}`;
+    this.botName = "udin";
     this.playerOption;
     this.botOption;
     this.winner = "";
@@ -66,6 +66,8 @@ function pickOption(params) {
   start.setBotOption = start.botBrain();
   start.winCalculation();
 
+  // start.getBotOption = start.NamaRandom();
+
   const inGame = document.getElementById("inGame");
   const result = document.getElementById("result");
 
@@ -77,12 +79,11 @@ function pickOption(params) {
     result.textContent = start.matchResult();
   }, 500);
 }
+const nama_bot = NamaRandom();
 
-function footer() {
-  var ya = document.getElementById("nama").value;
-  var z = document.getElementById("title");
-  z.innnerHTML = ya;
+function NamaRandom() {
+  const nama = ["udin", "nada", "babo, vina"];
+  const random_nama = nama[Math.floor(Math.random() * nama.length)];
+  // document.getElementById("result").innerHTML = random_nama;
+  return random_nama;
 }
-
-const nama = ["udin", "nada", "babo, vina","david","bagus","bagas","john","arce","ace","ivan","fiki"," fauzan"];
-const random_nama = nama[Math.floor(Math.random() * nama.length)];
